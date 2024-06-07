@@ -13,19 +13,19 @@
 <form>
 <div class="abc">
     <label for="Name">Name:</label><br>
-    <div><input type="text" name="Name" id="Name"></div><br>
+    <div><input type="text" name="Name" id="Name" required></div><br>
     <label for="Role">Role:</label>
-    <div><input type="text" name="Role" id="Role"></div><br>
+    <div><input type="text" name="Role" id="Role" required></div><br>
     <label for="Email">Email:</label>
-    <div><input type="email" name="Email" id="Email"></div><br>
+    <div><input type="email" name="Email" id="Email" required></div><br>
     <div>Birth Date</div><br>
     <label for="Date">Date:</label>
-    <div><input type="date" name="Date" id="Date"></div><br>
-    <div>Your Number <input type="number" name="Your Number"></div><br>
+    <div><input type="date" name="Date" id="Date" required></div><br>
+    <div>Your Number <input type="number" name="Your Number" required></div><br>
     <label for="Are You Muslim:">Are You Muslim:</label>
-    <div><input type="checkbox" checked name="Are you Muslim" id="Are You Muslim:"></div><br>
-    <div>Gender:<input type="radio" name="Gender">Male <input type="radio" name="Gender">Female <input type="radio" name="Gender">Other</div><br>
-    <div>Write YourSelf Minimum 100 Word: <textarea name="Write YourSelf" rows="10" cols="20"></textarea></div><br>
+    <div><input type="checkbox" checked name="Are you Muslim" id="Are You Muslim:" required></div><br>
+    <div>Gender:<input type="radio" name="Gender">Male <input type="radio" name="Gender">Female <input type="radio" name="Gender" required>Other</div><br>
+    <div>Write YourSelf Minimum 100 Word: <textarea name="Write YourSelf" rows="10" cols="20" required></textarea></div><br>
     <label for="car">Car:</label>
     <select
      name="Car" id="Car">
@@ -38,13 +38,13 @@
 <fieldset>
     <legend>Personal:</legend>
     <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
+    <input type="text" id="fname" name="fname" required><br><br>
     <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
+    <input type="text" id="lname" name="lname" required><br><br>
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+    <input type="email" id="email" name="email" required><br><br>
     <label for="birthday">Birthday:</label>
-    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="date" id="birthday" name="birthday" required><br><br>
     <input type="submit" value="Submit">
   </fieldset>
 <br>
